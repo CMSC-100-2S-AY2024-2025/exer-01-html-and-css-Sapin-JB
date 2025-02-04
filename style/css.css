@@ -1,6 +1,17 @@
 body,html, img,p{
     padding: 0px;
     margin: 0;
+    font-family:  'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    color: white;
+}
+
+.welcome-body{
+    background-color: #1e1e1e;
+    padding: 100px 200px;
+    color: #999999;
 }
 
 .cover{
@@ -13,6 +24,21 @@ body,html, img,p{
     filter: brightness(70%);
     overflow: hidden;
   
+}
+
+.mess{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mess .first{
+    font-size: 40px;
+}
+
+.mess .second{
+    font-size: 18px;
+    padding: 0px 300px;
 }
 
 .title{
@@ -45,3 +71,29 @@ body,html, img,p{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.grid{
+    display: flex !important;
+    background-color: #1e1e1e;
+    padding: 40px 200px;
+    height: 800px;
+    justify-content: end !important;
+}
+
+.grid .firstPic img{
+    width: 400px; height: 700px; object-fit: cover;
+}
+
+.card{
+    background-color: ;
+}
+
+.proj{
+    color: #999999;
+    display: flex !important;
+    background-color: #111111;
+    padding: 100px 200px;
+    height: 800px;
+    justify-content: end !important;
+}
+
