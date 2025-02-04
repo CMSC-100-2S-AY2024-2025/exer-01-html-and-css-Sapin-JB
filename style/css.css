@@ -6,11 +6,13 @@ body,html, img,p{
 
 body{
     color: white;
+    background-color: #1e1e1e;
 }
 
 .welcome-body{
     background-color: #1e1e1e;
-    padding: 100px 200px;
+    padding: 0 200px;
+    padding-top: 100px;
     color: #999999;
 }
 
@@ -24,6 +26,26 @@ body{
     filter: brightness(70%);
     overflow: hidden;
   
+}
+
+.info{
+    background-color: #1e1e1e;
+    padding: 0 200px;
+    
+}
+
+.info p{
+    font-size: 25pxa;
+    color: rgb(214, 214, 214) !important;
+}
+
+.info h1{
+    color: gray !important;
+}
+
+.box{
+    margin: 100px;
+    text-align: left;
 }
 
 .mess{
@@ -40,6 +62,36 @@ body{
     font-size: 18px;
     padding: 0px 300px;
 }
+
+.mess .third .flex{
+    margin: 0 300px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center !important;
+}
+
+.mess .third .flex img{
+    width: 9%;
+    height: auto !important;
+}
+
+.mess .third .flex .fb{
+    width: 17%;
+    height: auto !important;
+}
+
+.mess .third  .flex div{
+    width: 100%;
+    margin: 10px;
+    text-align: left;
+    font-size: 30px;
+    color: rgb(214, 214, 214) !important;
+}
+.mess .third  .flex p{
+    font-size: 18px;
+}
+
+
 
 .title{
     position: absolute;
@@ -75,25 +127,118 @@ body{
 .grid{
     display: flex !important;
     background-color: #1e1e1e;
-    padding: 40px 200px;
-    height: 800px;
+    padding: 0 200px;
     justify-content: end !important;
+    padding-bottom: 100px;
 }
 
-.grid .firstPic img{
-    width: 400px; height: 700px; object-fit: cover;
+.flex{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center !important;
 }
 
-.card{
-    background-color: ;
+.flex div{
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
 }
+
+.flex img{
+    width: 100%; height: 700px; object-fit: cover;
+}
+
 
 .proj{
-    color: #999999;
-    display: flex !important;
-    background-color: #111111;
+    color: black;
+    background-color: white;
     padding: 100px 200px;
-    height: 800px;
     justify-content: end !important;
 }
+
+.proj .mess .second{
+    font-size: 18px;
+    padding: 0px 480px;
+}
+
+.proj .flex{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center !important;
+}
+
+.proj .flex div{
+    box-shadow: 10px 5px 5px #999999 ;
+    width: 2000px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.proj .flex img{
+    width: 100%;
+    height: auto !important;
+}
+
+.skills{
+    color: black;
+    padding: 100px 200px;
+    justify-content: end !important;
+}
+
+.skills .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+}
+  
+.skills .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.expand {
+    background-color: #678e1d;
+    color: white;
+    border: none;
+    padding: 50px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 15px;
+    transition: padding 0.5s, border-radius 1s;
+
+}
+.expand:hover {
+    padding: 55px;
+    border-radius: 0px;
+
+}
+
+.skills .mess{
+    color: #999999;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.skills .first{
+    font-size: 40px;
+}
+
+.skills .second{
+    font-size: 18px;
+    padding: 0px 300px;
+}
+
+
+
 
